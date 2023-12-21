@@ -13,7 +13,7 @@ services:
             - sistema-getao-network
     # nginx
     nginx:
-        container_name: servidor-nginx
+        container_name: sistema-gestao-laravel
         image: nginx:alpine
         restart: unless-stopped
         ports:
